@@ -3,7 +3,7 @@ import React from 'react'
 import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
-
+import data from '../data/projects.json'
 class Main extends React.Component {
   render() {
     let close = (
@@ -62,25 +62,24 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Work</h2>
-          <span className="image main">
-            <img src={pic02} alt="" />
-          </span>
-          <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
-          </p>
-          <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
-          </p>
+          <div>
+            {data.Projects.map((projects, i) => {
+              return (
+                <div key={i}>
+                  <h1>{projects.title}</h1>
+                  <span className="image main">
+                    <img src={pic03} alt="" />
+                  </span>
+                  <p>
+                    {projects.para1}
+                  </p>
+                  <p>
+                    {projects.para2}
+                  </p>
+                </div>
+              )
+            })}
+          </div>
           {close}
         </article>
 

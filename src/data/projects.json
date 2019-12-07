@@ -1,0 +1,45 @@
+{
+    "Projects": [{
+            "title": "Sony Creator Space NYC",
+            "image": "./assets/",
+            "url": "https://www.google.com/",
+            "para1": "para 1",
+            "para2": "para 2"
+        },
+        {
+            "title": "Microsoft Health Compliance",
+            "image": "./assets/",
+            "url": "https://www.google.com/",
+            "para1": "para 1",
+            "para2": "para 2"
+        },
+        {
+            "title": "Microsoft Health & Security",
+            "image": "./assets/",
+            "url": "https://www.google.com/",
+            "para1": "para 1",
+            "para2": "para 2"
+        },
+        {
+            "title": "VMWare Future City",
+            "image": "./assets/",
+            "url": "https://www.google.com/",
+            "para1": "para 1",
+            "para2": "para 2"
+        },
+        {
+            "title": "Nintex Guided Demo",
+            "image": "./assets/",
+            "url": "https://www.google.com/",
+            "para1": "para 1",
+            "para2": "para 2"
+        },
+        {
+            "title": "Concur Guided Demo",
+            "image": "./assets/",
+            "url": "https://www.google.com/",
+            "para1": "para 1",
+            "para2": "para 2"
+        }
+    ]
+}

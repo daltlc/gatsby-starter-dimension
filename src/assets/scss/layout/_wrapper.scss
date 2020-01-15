@@ -7,6 +7,7 @@
 /* Wrapper */
 
 	#wrapper {
+		 background: rgba(0, 0, 0, .3);
 		@include vendor('display', 'flex');
 		@include vendor('flex-direction', 'column');
 		@include vendor('align-items', 'center');

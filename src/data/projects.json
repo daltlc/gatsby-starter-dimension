@@ -1,45 +1,42 @@
 {
     "Projects": [{
             "title": "Sony Creator Space NYC",
-            "image": "./assets/",
-            "url": "https://www.google.com/",
+            "image": "sonyHorizontal.png",
+            "url": "https://alphauniverse.com/creative-space-nyc/",
             "para1": "para 1",
-            "para2": "para 2"
+            "para2": "<strong>Tech used:&nbsp;</strong> <span style='color:#f36e21'>HTML5, SASS, JavaScript, jQuery, Bootstrap, Zesty CMS</span>"
         },
         {
             "title": "Microsoft Health Compliance",
-            "image": "./assets/",
-            "url": "https://www.google.com/",
+            "image": "complianceHorizontal.png",
+            "url": "https://discover.microsoft.com/data-security-privacy-and-compliance-for-healthcare/#/",
             "para1": "para 1",
-            "para2": "para 2"
+            "para2": "<strong>Tech used:&nbsp;</strong> <span style='color:#0178d4'>Vue, SASS, JavaScript, Webpack, Bootstrap, Wordpress</span>"
+        
         },
         {
             "title": "Microsoft Health & Security",
-            "image": "./assets/",
-            "url": "https://www.google.com/",
+            "image": "healthcare.png",
+            "url": "https://discover.microsoft.com/empower-your-clinicians-with-microsoft-teams/",
             "para1": "para 1",
-            "para2": "para 2"
-        },
-        {
-            "title": "VMWare Future City",
-            "image": "./assets/",
-            "url": "https://www.google.com/",
-            "para1": "para 1",
-            "para2": "para 2"
+            "para2": "<strong>Tech used:&nbsp;</strong> <span style='color:#99a74e'>Vue, SASS, JavaScript, Webpack, Bootstrap, Wordpress</span>"
+        
         },
         {
             "title": "Nintex Guided Demo",
-            "image": "./assets/",
-            "url": "https://www.google.com/",
+            "image": "nintexHorizontal.png",
+            "url": "https://www.nintex.com/guided-tour/#/manage/process-management/intro/",
             "para1": "para 1",
-            "para2": "para 2"
+            "para2": "<strong>Tech used:&nbsp;</strong> <span style='color:#f36e21'>Vue, SASS, JavaScript, Webpack, Bootstrap, Wordpress</span>"
+
+            
         },
         {
             "title": "Concur Guided Demo",
-            "image": "./assets/",
-            "url": "https://www.google.com/",
+            "image": "concurHorizontal.png",
+            "url": "https://www.concur.com/self-guided-demo-expense#",
             "para1": "para 1",
-            "para2": "para 2"
+            "para2": "<strong>Tech used:&nbsp;</strong> <span style='color:#ffc725'>Vue, SASS, JavaScript, Webpack, Bootstrap, Wordpress</span>"
         }
     ]
 }

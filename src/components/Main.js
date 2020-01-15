@@ -4,6 +4,9 @@ import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
 import data from '../data/projects.json'
+import resume from '../images/Dalton_Carr_12_10.png'
+
+import vueIcon from '../images/vue.png'
 class Main extends React.Component {
   render() {
     let close = (
@@ -12,7 +15,7 @@ class Main extends React.Component {
         onClick={() => {
           this.props.onCloseArticle()
         }}
-      ></div>
+      />
     )
 
     return (
@@ -28,30 +31,9 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Intro</h2>
-          <span className="image main">
-            <img src={pic01} alt="" />
-          </span>
-          <p>
-            Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
-            aliquam facilisis ante interdum congue. Integer mollis, nisl amet
-            convallis, porttitor magna ullamcorper, amet egestas mauris. Ut
-            magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.
-            By the way, check out my <a href="#work">awesome work</a>.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-            dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora
-            torquent per conubia nostra, per inceptos himenaeos. Etiam tristique
-            libero eu nibh porttitor fermentum. Nullam venenatis erat id
-            vehicula viverra. Nunc ultrices eros ut ultricies condimentum.
-            Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae
-            dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in
-            lectus. Pellentesque habitant morbi tristique senectus et netus et
-            malesuada fames ac turpis egestas. In non lorem sit amet elit
-            placerat maximus. Pellentesque aliquam maximus risus, vel sed
-            vehicula.
-          </p>
+          <h2 className="major">Resume</h2>
+          <img className="resume" src={resume} />
+
           {close}
         </article>
 
@@ -67,15 +49,31 @@ class Main extends React.Component {
               return (
                 <div key={i}>
                   <h1>{projects.title}</h1>
+
                   <span className="image main">
-                    <img src={pic03} alt="" />
+                    <img src={require('../images/' + projects.image)} alt="" />
                   </span>
-                  <p>
-                    {projects.para1}
-                  </p>
-                  <p>
-                    {projects.para2}
-                  </p>
+                  {/* <p>{projects.para1}</p> */}
+                  <button
+                    onClick={() => {
+                      let url = projects.url
+                      window.location.replace(url)
+                    }}
+                  >
+                    Visit Site
+                  </button>
+                  <p
+                    className="skills"
+                    dangerouslySetInnerHTML={{ __html: projects.para2 }}
+                  />
+
+                  {/* {projects.map(function(skill, i) {
+                      return (
+                        <div key={i}>
+                          <img className="skill-icon" alt="" src={skill.src}></img>
+                        </div>
+                       )
+                    })}  */}
                 </div>
               )
             })}
@@ -91,17 +89,22 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">About</h2>
-          <span className="image main">
-            <img src={pic03} alt="" />
-          </span>
+          {/* <span className="image main">
+						<img src={pic03} alt="" />
+					</span> */}
           <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
+            Hello and welcome! My name is Dalton. I am a Front-End Engineer
+            out of Seattle, WA. I strive to create originial and stunning front
+            end expereinces using the most modern technologies. I love to dabble
+            in many things including various art forms, videography and video
+            game development.
+          </p>
+          <p>
+            Being a big local guy, I love bringing local stories to life through
+            web design and development. Whether it be small shops, restaurants,
+            you name it. Community is a big part of Seattle and life in general,
+            and being able to show millions of people the beauty of these places
+            through the web is what drives me.
           </p>
           {close}
         </article>
@@ -125,7 +128,7 @@ class Main extends React.Component {
             </div>
             <div className="field">
               <label htmlFor="message">Message</label>
-              <textarea name="message" id="message" rows="4"></textarea>
+              <textarea name="message" id="message" rows="4" />
             </div>
             <ul className="actions">
               <li>

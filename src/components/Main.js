@@ -5,6 +5,7 @@ import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
 import data from '../data/projects.json'
 import resume from '../images/Dalton_Carr_12_10.png'
+import me from '../images/me_pizza.jpg'
 
 import vueIcon from '../images/vue.png'
 class Main extends React.Component {
@@ -89,9 +90,9 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">About</h2>
-          {/* <span className="image main">
-						<img src={pic03} alt="" />
-					</span> */}
+          <span className="image main">
+						<img src={me} alt="" />
+					</span>
           <p>
             Hello and welcome! My name is Dalton. I am a Front-End Engineer
             out of Seattle, WA. I strive to create originial and stunning front

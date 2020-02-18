@@ -44,14 +44,14 @@
             "image": "lavish_logo_modern-min.png",
             "url": "https://www.lavishentertainmentinc.com",
             "para1": "para 1",
-            "para2": "<strong>Tech used:&nbsp;</strong> <span style='color:#ffc725'>Vue, SASS, JavaScript, Webpack, Bootstrap</span>"
+            "para2": "<strong>Tech used:&nbsp;</strong> <span style='color:#0178d4'>Vue, SASS, JavaScript, Webpack, Bootstrap</span>"
         },
         {
             "title": "Epic Raves",
             "image": "epic_logo_modern-min.png",
             "url": "https://epicraves.com",
             "para1": "para 1",
-            "para2": "<strong>Tech used:&nbsp;</strong> <span style='color:#ffc725'>HTML5, SASS, jQuery, JavaScript, Webpack</span>"
+            "para2": "<strong>Tech used:&nbsp;</strong> <span style='color:#f36e21'>HTML5, SASS, jQuery, JavaScript, Webpack</span>"
         }
     ]
 }

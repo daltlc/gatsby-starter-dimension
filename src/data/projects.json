@@ -38,6 +38,6 @@
             "url": "https://www.concur.com/self-guided-demo-expense#",
             "para1": "para 1",
             "para2": "<strong>Tech used:&nbsp;</strong> <span style='color:#ffc725'>Vue, SASS, JavaScript, Webpack, Bootstrap, Wordpress</span>"
-        },
+        }
     ]
 }

@@ -1,5 +1,14 @@
 {
-    "Projects": [{
+    "Projects": [
+        {
+            "title": "Microsoft Health & Security",
+            "image": "healthcare.png",
+            "url": "https://discover.microsoft.com/empower-your-clinicians-with-microsoft-teams/",
+            "para1": "para 1",
+            "para2": "<strong>Tech used:&nbsp;</strong> <span style='color:#99a74e'>Vue, SASS, JavaScript, Webpack, Bootstrap, Wordpress</span>"
+        
+        },
+        {
             "title": "Sony Creator Space NYC",
             "image": "sonyHorizontal.png",
             "url": "https://alphauniverse.com/creative-space-nyc/",
@@ -12,14 +21,6 @@
             "url": "https://discover.microsoft.com/data-security-privacy-and-compliance-for-healthcare/#/",
             "para1": "para 1",
             "para2": "<strong>Tech used:&nbsp;</strong> <span style='color:#0178d4'>Vue, SASS, JavaScript, Webpack, Bootstrap, Wordpress</span>"
-        
-        },
-        {
-            "title": "Microsoft Health & Security",
-            "image": "healthcare.png",
-            "url": "https://discover.microsoft.com/empower-your-clinicians-with-microsoft-teams/",
-            "para1": "para 1",
-            "para2": "<strong>Tech used:&nbsp;</strong> <span style='color:#99a74e'>Vue, SASS, JavaScript, Webpack, Bootstrap, Wordpress</span>"
         
         },
         {

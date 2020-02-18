@@ -38,6 +38,20 @@
             "url": "https://www.concur.com/self-guided-demo-expense#",
             "para1": "para 1",
             "para2": "<strong>Tech used:&nbsp;</strong> <span style='color:#ffc725'>Vue, SASS, JavaScript, Webpack, Bootstrap, Wordpress</span>"
+        },
+        {
+            "title": "Lavish Entertainment, Inc.",
+            "image": "lavish_logo_modern-min.png",
+            "url": "https://www.lavishentertainmentinc.com",
+            "para1": "para 1",
+            "para2": "<strong>Tech used:&nbsp;</strong> <span style='color:#ffc725'>Vue, SASS, JavaScript, Webpack, Bootstrap</span>"
+        },
+        {
+            "title": "Epic Raves",
+            "image": "epic_logo_modern-min.png",
+            "url": "https://epicraves.com",
+            "para1": "para 1",
+            "para2": "<strong>Tech used:&nbsp;</strong> <span style='color:#ffc725'>HTML5, SASS, jQuery, JavaScript, Webpack</span>"
         }
     ]
 }

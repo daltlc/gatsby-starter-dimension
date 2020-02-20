@@ -98,14 +98,10 @@ class Main extends React.Component {
             out of Seattle, WA. I strive to create originial and stunning web expereinces 
             using the most modern technologies. I love to dabble
             in many things including various art forms, videography and video
-            game development.
+            game development. Traveling the world is my favorite hobby. 
           </p>
           <p>
-            I am all about local community and bringing local stories to life through
-            web design and development. Whether it be small shops, restaurants,
-            you name it. Community is a big part of Seattle and life in general,
-            and being able to show millions of people the beauty of these places
-            through the web is what drives me.
+          
           </p>
           {close}
         </article>

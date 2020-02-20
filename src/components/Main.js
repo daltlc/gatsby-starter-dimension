@@ -91,17 +91,17 @@ class Main extends React.Component {
         >
           <h2 className="major">About</h2>
           <span className="image main">
-						<img style="width:40%;margin:auto;" src={me} alt="" />
+						<img src={me} alt="" />
 					</span>
           <p>
-            Hello and welcome! My name is Dalton. I am a Front-End Engineer
-            out of Seattle, WA. I strive to create originial and stunning front
-            end expereinces using the most modern technologies. I love to dabble
+            Hello and welcome! My name is Dalton. I am a Full-Stack Web Engineer
+            out of Seattle, WA. I strive to create originial and stunning web expereinces 
+            using the most modern technologies. I love to dabble
             in many things including various art forms, videography and video
             game development.
           </p>
           <p>
-            Being a big local guy, I love bringing local stories to life through
+            I am all about local community and bringing local stories to life through
             web design and development. Whether it be small shops, restaurants,
             you name it. Community is a big part of Seattle and life in general,
             and being able to show millions of people the beauty of these places

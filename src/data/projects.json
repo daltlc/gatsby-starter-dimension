@@ -9,18 +9,18 @@
 
         },
         {
+            "title": "Seattle - Localforlife",
+            "image": "localforlife.png",
+            "url": "https://www.sealocalforlife.com",
+            "para1": "para 1",
+            "para2": "<strong>Tech used:&nbsp;</strong> <span style='color:#ffc725'>React, SASS, AWS Amplify, GraphQL, AppSync, AWS Cognito, Webpack, Bootstrap</span>"
+        },
+        {
             "title": "Sony Creator Space NYC",
             "image": "sonyHorizontal.png",
             "url": "https://alphauniverse.com/creative-space-nyc/",
             "para1": "para 1",
             "para2": "<strong>Tech used:&nbsp;</strong> <span style='color:#f36e21'>HTML5, SASS, JavaScript, jQuery, Bootstrap, Zesty CMS</span>"
-        },
-        {
-            "title": "SharePlz - Project",
-            "image": "sharepleaselogo.png",
-            "url": "https://github.com/daltlc/amplify-react-native-SharePlz",
-            "para1": "para 1",
-            "para2": "<strong>Tech used:&nbsp;</strong> <span style='color:#ffc725'>React, SASS, AWS Amplify, GraphQL, AppSync, AWS Cognito, Webpack, Bootstrap</span>"
         },
         {
             "title": "Microsoft Health Compliance",
@@ -29,6 +29,13 @@
             "para1": "para 1",
             "para2": "<strong>Tech used:&nbsp;</strong> <span style='color:#0178d4'>Vue, SASS, JavaScript, Webpack, Bootstrap, Wordpress</span>"
 
+        },
+        {
+            "title": "SharePlz - Project",
+            "image": "sharepleaselogo.png",
+            "url": "https://github.com/daltlc/amplify-react-native-SharePlz",
+            "para1": "para 1",
+            "para2": "<strong>Tech used:&nbsp;</strong> <span style='color:#ffc725'>React Native, SASS, AWS Amplify, GraphQL, AppSync, AWS Cognito, Webpack, Bootstrap</span>"
         },
         {
             "title": "Nintex Guided Demo",

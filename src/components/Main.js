@@ -88,16 +88,18 @@ class Main extends React.Component {
 					style={{ display: 'none' }}
 				>
 					<h2 className="major">About</h2>
-					<span className="image main">
-						<img src={me} alt="" />
-					</span>
-					<p>
-						Hello and welcome! My name is Dalton. I am a Full-Stack Web Engineer out of Seattle, WA. I
-						strive to create originial and stunning web expereinces using the most modern technologies. I
-						love to dabble in many things including various art forms, videography and video game
-						development. Traveling the world is my favorite hobby.
-					</p>
-					<p />
+					<div className="about_struc">
+						<span className="image main">
+							<img src={me} alt="" />
+						</span>
+						<p>
+							Hello and welcome! My name is Dalton. I am a Full-Stack Web Engineer out of Seattle, WA. I
+							strive to create originial and stunning web expereinces using the most modern technologies.
+							I love to dabble in many things including various art forms, videography and video game
+							development.
+						</p>
+						<p />
+					</div>
 					{close}
 				</article>
 

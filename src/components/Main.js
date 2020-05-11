@@ -93,7 +93,7 @@ class Main extends React.Component {
 							<img src={me} alt="" />
 						</span>
 						<p>
-							Hello and welcome! My name is Dalton. I am a Full-Stack Web Engineer out of Seattle, WA. I
+							Hello and welcome! My name is Dalton. I am a Front End Developer out of Seattle, WA. I
 							strive to create originial and stunning web expereinces using the most modern technologies.
 							I love to dabble in many things including various art forms, videography and video game
 							development.

@@ -33,7 +33,9 @@ button,
 	white-space: nowrap;
 
 	&:hover {
-		background-color: _palette(border-bg);
+		background-color: white;
+		color: black !important;
+		font-weight: 600;
 	}
 
 	&:active {

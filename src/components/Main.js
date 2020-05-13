@@ -25,7 +25,7 @@ class Main extends React.Component {
 				id="main"
 				style={this.props.timeout ? { display: 'flex' } : { display: 'none' }}
 			>
-				<article
+				{/* <article
 					id="intro"
 					className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout
 						? 'timeout'
@@ -36,7 +36,7 @@ class Main extends React.Component {
 					<img className="resume" src={resume} />
 
 					{close}
-				</article>
+				</article> */}
 
 				<article
 					id="work"
@@ -93,17 +93,16 @@ class Main extends React.Component {
 							<img src={me} alt="" />
 						</span>
 						<p>
-							Hello and welcome! My name is Dalton. I am a Front End Developer out of Seattle, WA. I
-							strive to create originial and stunning web expereinces using the most modern technologies.
-							I love to dabble in many things including various art forms, videography and video game
-							development.
+							My name is Dalton. I am a Front End Developer, currently out of Seattle, WA. I strive to
+							create originial and stunning web expereinces using the most modern technologies. I love to
+							dabble in many things including various art forms, videography and video game development.
 						</p>
 						<p />
 					</div>
 					{close}
 				</article>
 
-				<article
+				{/* <article
 					id="contact"
 					className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout
 						? 'timeout'
@@ -156,7 +155,7 @@ class Main extends React.Component {
 						</li>
 					</ul>
 					{close}
-				</article>
+				</article> */}
 			</div>
 		);
 	}

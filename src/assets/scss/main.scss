@@ -12,16 +12,16 @@
 */
 
 @include skel-breakpoints((xlarge: '(max-width: 1680px)',
-		large: '(max-width: 1280px)',
-		medium: '(max-width: 980px)',
-		small: '(max-width: 736px)',
-		xsmall: '(max-width: 480px)',
-		xxsmall: '(max-width: 360px)'
-	));
+    large: '(max-width: 1280px)',
+    medium: '(max-width: 980px)',
+    small: '(max-width: 736px)',
+    xsmall: '(max-width: 480px)',
+    xxsmall: '(max-width: 360px)',
+  ));
 
 @include skel-layout((reset: 'full',
-		boxModel: 'border'
-	));
+    boxModel: 'border',
+  ));
 
 // Base.
 
@@ -47,12 +47,16 @@
 @import 'layout/footer';
 
 
-.about_struc {
-	.image {
-		img {
-			height: 300px;
-			width: auto;
-		}
-	}
 
+.about_struc {
+  .image {
+    img {
+      height: 300px;
+      width: auto;
+    }
+  }
+}
+
+.w-100 {
+  width: 100% !important;
 }

@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Link } from 'gatsby';
 
 const Header = (props) => (
 	<header id="header" style={props.timeout ? { display: 'none' } : {}}>
@@ -15,14 +16,15 @@ const Header = (props) => (
 		<nav>
 			<ul>
 				<li>
-					<a
+					{/* <a
 						href="javascript:;"
 						onClick={() => {
 							props.onOpenArticle('work');
 						}}
 					>
 						Work
-					</a>
+					</a> */}
+					<Link to="/work">Work</Link>
 				</li>
 				<li>
 					<a

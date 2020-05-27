@@ -4,6 +4,7 @@ import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 
 import '../assets/scss/main.scss'
+import '../assets/css/tailwind.css'
 
 const Layout = ({ children, location }) => {
 
@@ -18,7 +19,7 @@ const Layout = ({ children, location }) => {
   } else {
     content = (
       <div id="wrapper" className="page">
-        <div>
+        <div className="w-100">
           {children}
         </div>
       </div>

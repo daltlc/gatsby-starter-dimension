@@ -87,7 +87,7 @@ class Main extends React.Component {
 						: ''}`}
 					style={{ display: 'none' }}
 				>
-					<h2 className="major">About</h2>
+					{/* <h2 className="major">About</h2> */}
 					<div className="about_struc">
 						<span className="image main">
 							<img src={me} alt="" />
